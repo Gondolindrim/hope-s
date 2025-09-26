@@ -1,4 +1,5 @@
 (fp_lib_table
+  (version 7)
   (lib (name "acheron_Logos")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_Logos.pretty")(options "")(descr "Acheron Project footprint library"))
   (lib (name "acheron_Graphics")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_Graphics.pretty")(options "")(descr "Acheron Project footprint library"))
   (lib (name "acheron_MX_SolderMask")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_MX_SolderMask.pretty")(options "")(descr "Acheron Project footprint library"))
@@ -6,4 +7,5 @@
   (lib (name "acheron_Connectors")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_Connectors.pretty")(options "")(descr "Acheron Project footprint library"))
   (lib (name "acheron_Components")(type "KiCad")(uri "${KIPRJMOD}/libraries/acheron_Components.pretty")(options "")(descr "Acheron Project footprint library"))
   (lib (name "athena_library")(type "KiCad")(uri "${KIPRJMOD}/libraries/athena_library.pretty")(options "")(descr ""))
+  (lib (name "hope-lib")(type "KiCad")(uri "${KIPRJMOD}/libraries/hope-lib.pretty")(options "")(descr ""))
 )

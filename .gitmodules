@@ -16,3 +16,6 @@
 [submodule "kicad_files/libraries/acheron_Symbols"]
 	path = kicad_files/libraries/acheron_Symbols
 	url = git@github.com:AcheronProject/acheron_Symbols.git
+[submodule "kicad_files/libraries/acheron_Components.pretty"]
+	path = kicad_files/libraries/acheron_Components.pretty
+	url = git@github.com:AcheronProject/acheron_Components.pretty.git
