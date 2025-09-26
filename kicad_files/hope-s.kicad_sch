@@ -6268,15 +6268,13 @@
 	)
 	(text "USB ESD"
 		(exclude_from_sim no)
-		(at 565.785 24.765 0)
+		(at 574.675 25.4 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
+				(size 5.08 5.08)
+				(thickness 1.524)
 				(bold yes)
-				(italic yes)
 			)
-			(justify left bottom)
 		)
 		(uuid "d1ced55b-584e-4adc-b1bf-a9e74eb3ce8b")
 	)
@@ -7816,10 +7814,10 @@
 	)
 	(polyline
 		(pts
-			(xy 476.25 19.05) (xy 476.25 72.39)
+			(xy 476.25 19.05) (xy 476.25 69.85)
 		)
 		(stroke
-			(width 0.508)
+			(width 1.016)
 			(type dash)
 		)
 		(uuid "02deb9d9-ef75-448e-b6fd-ae53dd0d80da")
@@ -8436,10 +8434,10 @@
 	)
 	(polyline
 		(pts
-			(xy 546.1 72.39) (xy 601.98 72.39)
+			(xy 546.1 69.85) (xy 603.25 69.85)
 		)
 		(stroke
-			(width 0.508)
+			(width 1.016)
 			(type dash)
 		)
 		(uuid "1999f2ef-d1d3-458e-ba48-fd5587d8c1fe")
@@ -10716,10 +10714,10 @@
 	)
 	(polyline
 		(pts
-			(xy 601.98 72.39) (xy 601.98 19.05)
+			(xy 603.25 69.85) (xy 603.25 19.05)
 		)
 		(stroke
-			(width 0.508)
+			(width 1.016)
 			(type dash)
 		)
 		(uuid "66c35dfb-89d7-445e-a8ab-e6f79331bc33")
@@ -13159,7 +13157,7 @@
 			(xy 527.05 19.05) (xy 476.25 19.05)
 		)
 		(stroke
-			(width 0.508)
+			(width 1.016)
 			(type dash)
 		)
 		(uuid "bf54c423-6004-49de-ad28-4e9183f20a6b")
@@ -13706,10 +13704,10 @@
 	)
 	(polyline
 		(pts
-			(xy 527.05 72.39) (xy 527.05 19.05)
+			(xy 527.05 69.85) (xy 527.05 19.05)
 		)
 		(stroke
-			(width 0.508)
+			(width 1.016)
 			(type dash)
 		)
 		(uuid "d00a8875-40e3-4236-8b15-da7ac23b2689")
@@ -14136,10 +14134,10 @@
 	)
 	(polyline
 		(pts
-			(xy 476.25 72.39) (xy 527.05 72.39)
+			(xy 476.25 69.85) (xy 527.05 69.85)
 		)
 		(stroke
-			(width 0.508)
+			(width 1.016)
 			(type dash)
 		)
 		(uuid "de0b9292-a366-42de-82c8-ff8b10007ae1")
@@ -14226,10 +14224,10 @@
 	)
 	(polyline
 		(pts
-			(xy 601.98 19.05) (xy 546.1 19.05)
+			(xy 603.25 19.05) (xy 546.1 19.05)
 		)
 		(stroke
-			(width 0.508)
+			(width 1.016)
 			(type dash)
 		)
 		(uuid "e1689155-6b2a-4c39-9063-751641a6c087")
@@ -14476,10 +14474,10 @@
 	)
 	(polyline
 		(pts
-			(xy 546.1 19.05) (xy 546.1 72.39)
+			(xy 546.1 19.05) (xy 546.1 69.85)
 		)
 		(stroke
-			(width 0.508)
+			(width 1.016)
 			(type dash)
 		)
 		(uuid "ec883cc4-395e-4add-baea-d5df72bda399")
@@ -14636,10 +14634,10 @@
 	)
 	(polyline
 		(pts
-			(xy 546.1 26.67) (xy 601.98 26.67)
+			(xy 546.1 31.75) (xy 603.25 31.75)
 		)
 		(stroke
-			(width 0.508)
+			(width 1.016)
 			(type dash)
 		)
 		(uuid "f11076b1-b723-49d1-9406-bb325caeeced")
@@ -15109,7 +15107,7 @@
 			(xy 476.25 31.75) (xy 527.05 31.75)
 		)
 		(stroke
-			(width 0.508)
+			(width 1.016)
 			(type dash)
 		)
 		(uuid "ff6e9371-1513-4a35-aeb9-ed003d2307cc")
@@ -20257,7 +20255,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 482.6 50.8 0)
+		(at 488.95 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -20265,7 +20263,7 @@
 		(dnp no)
 		(uuid "20d2c6b7-4b2e-4449-b95d-390dc10564dd")
 		(property "Reference" "GR1"
-			(at 486.41 50.1649 0)
+			(at 492.76 43.8149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20273,8 +20271,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Athena Label"
-			(at 486.41 52.705 0)
+		(property "Value" "FSR logo"
+			(at 492.76 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20282,8 +20280,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "athena_library:athena_label_35x5.6"
-			(at 482.6 50.8 0)
+		(property "Footprint" "hope-lib:FSR_logo"
+			(at 488.95 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20292,7 +20290,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 482.6 50.8 0)
+			(at 488.95 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20301,7 +20299,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 482.6 50.8 0)
+			(at 488.95 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20310,7 +20308,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 482.6 50.8 0)
+			(at 488.95 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20319,7 +20317,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 482.6 50.8 0)
+			(at 488.95 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20328,7 +20326,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 482.6 50.8 0)
+			(at 488.95 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20337,7 +20335,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 482.6 50.8 0)
+			(at 488.95 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20346,7 +20344,7 @@
 			)
 		)
 		(property "Specification" ""
-			(at 482.6 50.8 0)
+			(at 488.95 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43653,6 +43651,114 @@
 			(project "athena"
 				(path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3"
 					(reference "SW70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 488.95 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "dca4412f-60ea-4f34-ab72-ac1de755ae04")
+		(property "Reference" "GR2"
+			(at 492.76 56.5149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Gondo logo"
+			(at 492.76 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hope-lib:gondo_logo_plated"
+			(at 488.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 488.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 488.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 488.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 488.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 488.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 488.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification" ""
+			(at 488.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hope-s"
+				(path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3"
+					(reference "GR2")
 					(unit 1)
 				)
 			)
